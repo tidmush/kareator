@@ -1,0 +1,36 @@
+{
+  "name": "ksml-loader",
+  "version": "1.0.0",
+  "description": "A ksml loader for webpack. Compiles ksml to javascript.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Atid Mushlam",
+  "license": "MIT",
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ]
+    ]
+  },
+  "dependencies": {
+    "chevrotain": "^9.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "@types/jest": "^27.0.3",
+    "babel-jest": "^27.4.5",
+    "jest": "^27.4.5"
+  }
+}
