@@ -1,0 +1,12 @@
+{
+    "name": "@karaetor/root",
+    "author": "Yotam Madar",
+    "description": "This project aims to design standards for creating and consuming karaoke instructions to be used publicly and freely",
+    "version": "1.0.0",
+    "private": true,
+    "license": "MIT",
+    "workspaces":[
+        "docs/*",
+        "packages/*"
+    ]
+  }
