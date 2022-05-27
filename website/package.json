@@ -1,0 +1,17 @@
+{
+  "name": "karaetor",
+  "version": "1.0.0",
+  "description": "This project aims to design standards for creating and consuming karaoke instructions to be used publicly and freely",
+  "main": "index.js",
+  "private": "true",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "author": "Yotam Madar",
+  "license": "MIT",
+  "dependencies": {
+    "vitepress": "^0.22.4"
+  }
+}

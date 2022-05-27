@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+
+  --c-white: #ffffff;
+  --c-white-dark: #f8f8f8;
+  --c-black: #333333;
+
+  --c-divider-light: rgba(60, 60, 67, 0.12);
+  --c-divider-dark: rgba(84, 84, 88, 0.48);
+
+  --c-text-light-1: #2c3e50;
+  --c-text-light-2: #476582;
+  --c-text-light-3: #90a4b7;
+
+  --c-brand: #e04370;
+  --c-brand-light: #e64c78;
+
+  --font-family-base: 'Raleway', sans-serif;
+  --font-family-mono: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

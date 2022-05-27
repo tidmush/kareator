@@ -5,8 +5,8 @@
     "version": "1.0.0",
     "private": true,
     "license": "MIT",
-    "workspaces":[
-        "docs/*",
+    "workspaces": [
+        "website/*",
         "packages/*"
     ]
-  }
+}
